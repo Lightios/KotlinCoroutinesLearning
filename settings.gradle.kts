@@ -3,3 +3,4 @@ plugins {
 }
 rootProject.name = "KotlinCoroutinesLearning"
 include("project1")
+include("project2")
