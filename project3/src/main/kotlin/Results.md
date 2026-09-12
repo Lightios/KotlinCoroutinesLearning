@@ -51,8 +51,17 @@ Comments:
 
 **Coroutines Spawn**
 
-So far, the only scenario where `Dispatchers.Default` wins is spawning a lot of lightweight coroutines. 
+Example scenario where `Dispatchers.Default` wins is spawning a lot of lightweight coroutines. 
 `Default` wins, because it has lower thread pool resulting in less switching context between threads.
 
 Example taken from StackOverflow: https://stackoverflow.com/questions/79399773/why-dispatchers-default-runs-faster-than-dispatchers-io-in-coroutines-for-simple
 and adapted to the rest of my code.
+
+
+**Mapping numbers**
+
+Spawning a lot of CPU heavy tasks also makes the `Default` dispatcher win. 
+
+In `MappingTest.kt` I have spawned 100 000 coroutines with mapping a lot of numbers. It resulted in 
+- 8.759800ms for `Default`
+- 268.585700ms for `IO`
