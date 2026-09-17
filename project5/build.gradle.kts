@@ -1,9 +1,8 @@
 plugins {
     kotlin("jvm")
-    application
 }
 
-group = "pl.michal_cyran.coroutines.project1"
+group = "org.example"
 version = "1.0-SNAPSHOT"
 
 repositories {
