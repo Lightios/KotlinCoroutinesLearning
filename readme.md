@@ -3,6 +3,7 @@ Text resources that I used:
 - https://kotlinlang.org/docs/coroutines-basics.html
 - https://kotlinlang.org/docs/coroutines-cancellation.html
 - https://kotlinlang.org/docs/coroutines-flow.html
+- https://developer.android.com/kotlin/flow/stateflow-and-sharedflow
 
 Video guides that I used:
 
