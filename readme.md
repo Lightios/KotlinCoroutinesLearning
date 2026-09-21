@@ -12,6 +12,8 @@ Video guides that I used:
 - [Kotlin Coroutines Tutorial, Part 2: Cooperative Scheduling, Cancellation, Coroutine Context by Rock the JVM](https://www.youtube.com/watch?v=2RdHD0tceL4)
 - [Hot Flows vs. Cold Flows In Kotlin by Philipp Lackner](https://www.youtube.com/watch?v=M8YtV47kaqA&t=18s)
 - [Intro to Kotlin's Flow API by Dave Leeds](https://www.youtube.com/watch?v=6dOXCV_8nEI)
+- [When Flows Won't Cut It by Dave Leeds](https://www.youtube.com/watch?v=qyMPE4bCYr8)
+- [Complete Guide on Kotlin Channels (Coroutines) by Stevdza-San](https://www.youtube.com/watch?v=unkgAYV9SpI)
 
 
 # Projects list:
